@@ -39,4 +39,4 @@ React events are named using camelCase (e.g., `onClick` instead of `onclick`). I
 
 - **Live Link:** https://github.com/tarikulhazra/Customer-Support-Ticket-System
 
-- **GitHub Repository:** https://storied-unicorn-a3a119.netlify.app/
+- **GitHub Repository:** https://customer-support-ticket-system26.netlify.app/
