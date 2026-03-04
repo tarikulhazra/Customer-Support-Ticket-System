@@ -13,7 +13,7 @@ const Navbar = () => {
           <li><a>Download</a></li>
           <li><a>Contact</a></li>
         </ul>
-        <button className="btn bg-[#7E3AF2] hover:bg-[#6c2bd9] text-white btn-sm px-4">+ New Ticket</button>
+        <button className="btn bg-[#7E3AF2] hover:bg-[#6c2bd9] text-white btn-sm px-5">+ New Ticket</button>
       </div>
     </div>
   );
