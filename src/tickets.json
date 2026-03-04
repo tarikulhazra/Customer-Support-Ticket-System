@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/12/2024"
+  },
+  {
+    "id": "1002",
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+    "customer": "Sarah Adams",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "1/12/2024"
+  },
+  {
+    "id": "1003",
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/13/2024"
+  },
+  {
+    "id": "1004",
+    "title": "Incorrect Billing Address",
+    "description": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  }
+]
