@@ -3,22 +3,20 @@ const Footer = () => {
     <footer className="bg-black text-white py-16 mt-20">
       <div className="max-w-[1400px] mx-auto px-4 lg:px-0">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
-          {/* Logo and About Section */}
-          <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold mb-6 italic tracking-tight">
+          {/* 1. Logo and About Section */}
+          <div className="lg:col-span-1">
+            <h2 className="text-xl font-bold mb-6 italic tracking-tight">
               CS — Ticket System
             </h2>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-gray-400 text-xs leading-relaxed">
               Our Customer Support Ticket System provides a seamless way to
-              track, manage, and resolve client issues efficiently. Built for
-              high-performance teams to ensure no customer query goes
-              unanswered.
+              track, manage, and resolve client issues efficiently.
             </p>
           </div>
 
-          {/* Company Links */}
+          {/* 2. Company Links */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Company</h4>
+            <h4 className="font-bold text-base mb-6">Company</h4>
             <ul className="text-gray-400 text-sm space-y-4">
               <li className="hover:text-white cursor-pointer transition">
                 About Us
@@ -32,9 +30,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services Links */}
+          {/* 3. Services Links */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Services</h4>
+            <h4 className="font-bold text-base mb-6">Services</h4>
             <ul className="text-gray-400 text-sm space-y-4">
               <li className="hover:text-white cursor-pointer transition">
                 Products & Services
@@ -48,10 +46,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Information & Socials */}
+          {/* 4. Information List (Moved to Left of Socials) */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Information</h4>
-            <ul className="text-gray-400 text-sm space-y-4 mb-8">
+            <h4 className="font-bold text-base mb-6">Information</h4>
+            <ul className="text-gray-400 text-sm space-y-4">
               <li className="hover:text-white cursor-pointer transition">
                 Privacy Policy
               </li>
@@ -62,14 +60,17 @@ const Footer = () => {
                 Join Us
               </li>
             </ul>
+          </div>
 
-            <h4 className="font-bold text-lg mb-4">Social Links</h4>
+          {/* 5. Social Links (Last Column) */}
+          <div>
+            <h4 className="font-bold text-base mb-6">Social Links</h4>
             <div className="space-y-3">
               <a
                 href="#"
                 className="flex items-center gap-2 text-gray-400 hover:text-white text-sm"
               >
-                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">
+                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold italic">
                   X
                 </span>{" "}
                 @CS — Ticket System
@@ -78,7 +79,7 @@ const Footer = () => {
                 href="#"
                 className="flex items-center gap-2 text-gray-400 hover:text-white text-sm"
               >
-                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">
+                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold italic">
                   in
                 </span>{" "}
                 @CS — Ticket System
@@ -87,7 +88,7 @@ const Footer = () => {
                 href="#"
                 className="flex items-center gap-2 text-gray-400 hover:text-white text-sm"
               >
-                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">
+                <span className="bg-white text-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold italic">
                   f
                 </span>{" "}
                 @CS — Ticket System
@@ -102,10 +103,11 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright Section Updated */}
-        <div className="text-center text-gray-500 text-xs mt-16 pt-8 border-t border-gray-800">
+        {/* Inline Copyright and Developed By Section */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-gray-500 text-xs mt-16 pt-8 border-t border-gray-800">
           <p>© 2026 CS — Ticket System. All rights reserved.</p>
-          <p className="mt-2">
+          <span className="hidden md:block">|</span>
+          <p>
             Developed by{" "}
             <a
               href="https://weborbido.com"
